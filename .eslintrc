@@ -1,0 +1,39 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "sourceType": "module",
+        "allowImportExportEverywhere": true,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+          }
+
+    },
+
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-multiple-empty-lines": [
+            2,
+            { "max": 1, "maxEOF": 0, "maxBOF": 0 }
+        ],
+        "no-trailing-spaces": "error",
+        "import/no-extraneous-dependencies": 0
+  }
+}
